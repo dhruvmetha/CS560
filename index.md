@@ -4,9 +4,12 @@ You can use the [editor on GitHub](https://github.com/dhruvmetha/CS560/edit/gh-p
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-<video width="320" height="240" controls>
-  <source type="video/mp4" src="https://github.com/dhruvmetha/CS560/raw/master/1_rrt.mp4">
+
+<video src="https://user-images.githubusercontent.com/25320503/149968226-db68f83a-015e-445f-bd7d-14253c7b5768.mp4" controls="controls" style="max-width: 730px;">
 </video>
+
+
+
 
 ### Markdown
 
