@@ -2,7 +2,7 @@
 
 
 
-## Geometric  in C-space
+## Geometric (x,y) in C-space
 
 Here the robot can only translate in a 10x10 2D plane. The robot is a non symmetrically shaped polygon (triangle) with it's origin at it's left most point. We use minkowski addition using the robot's flipped polygon on the obstacles to get the configuration space of the problem.
 
@@ -21,6 +21,19 @@ This is an optimal algorithm, which uses rewiring technqiues within a region to 
 
 <video src="https://user-images.githubusercontent.com/25320503/149968880-9f95aca2-93ae-4a29-9d72-44a08717f560.mp4" controls="controls" style="max-width: 730px;">
 </video>
+
+## Geometric (x, y, theta) in C-space
+
+Here the robot can translate and rotate in a 10x10 2D plane.
+
+### RRT
+
+<img src="https://user-images.githubusercontent.com/25320503/149968226-db68f83a-015e-445f-bd7d-14253c7b5768.mp4" style="max-width: 730px;"/>
+
+### RRT Star
+
+<img src="https://user-images.githubusercontent.com/25320503/149968880-9f95aca2-93ae-4a29-9d72-44a08717f560.mp4" style="max-width: 730px;"/>
+
 
 ### RRT with velocity as a control
 
