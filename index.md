@@ -1,30 +1,61 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/dhruvmetha/CS560/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# CS 560 Assignment Animations and Images
 
 
-### Geometric RRT in C-space
+
+## Geometric  in C-space
+
+Here the robot can only translate in a 10x10 2D plane. The robot is a non symmetrically shaped polygon (triangle) with it's origin at it's left most point. We use minkowski addition using the robot's flipped polygon on the obstacles to get the configuration space of the problem.
+
+The sampling based tree algorithm RRT and RRT* is shown in the following sections. It forms a tree data structure from the start position to the goal position and avoids all obstacles using collision checks at every sampled point.
+
+### RRT
+
+The following is the RRT algorithm. This is a sub-optimal but quite a fast algorithm.
+
 <video src="https://user-images.githubusercontent.com/25320503/149968226-db68f83a-015e-445f-bd7d-14253c7b5768.mp4" controls="controls" style="max-width: 730px;">
 </video>
 
-### Geometric RRT Star in C-space
+### RRT Star
+
+This is an optimal algorithm, which uses rewiring technqiues within a region to find the best possible path amognst the discovered paths to the goal.
+
 <video src="https://user-images.githubusercontent.com/25320503/149968880-9f95aca2-93ae-4a29-9d72-44a08717f560.mp4" controls="controls" style="max-width: 730px;">
 </video>
 
 ### RRT with velocity as a control
+
+1. Sample a random point
+2. We find the nearest point on the tree to the sampled point
+3. Sample 20 controls - linear and angular velocities.
+4. Find the control which takes the robot closest to the random point (with collision checks)
+5. Add that point to the tree 
+
+Following is the demonstration.
+
 <video src="https://user-images.githubusercontent.com/25320503/149969046-9544781a-4f8a-496e-9f0f-69d50564dca7.mp4" controls="controls" style="max-width: 730px;">
 </video>
 
 ### RRT with acceleration as a control
+
+I do the same thing as above, except we sample linear and angular accelerations, which take us closer to how they work in reality. 
+
 <video src="https://user-images.githubusercontent.com/25320503/149969461-35ce8b3c-b426-417b-9a0d-26b13bd52503.mp4" controls="controls" style="max-width: 730px;">
 </video>
 
 
+## Localization
+
 ### Particle Filters
+
+Sampling 100 particles around 100x100 space and using a sampling based approach to bayes filters to localize the robot in this space.
+
+
 <video src="https://user-images.githubusercontent.com/25320503/149969691-dbf506a5-3d76-4949-b689-383e4dd61116.mp4" controls="controls" style="max-width: 730px;">
 </video>
+
+As you can see from above, the random particles in space start getting more and more concentrated as the robot moves and gets the bearing as an observation of the state at every step.
+
+Here is another illustration of the same.
 
 <video src="https://user-images.githubusercontent.com/25320503/149970194-5c5520c8-d743-4572-9e3c-eb12acb9474a.mp4" controls="controls" style="max-width: 730px;">
 </video>
@@ -32,37 +63,3 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 
 
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dhruvmetha/CS560/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
