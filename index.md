@@ -2,7 +2,7 @@
 
 
 
-## Geometric (x,y) in C-space
+## Geometric Planning
 
 Here the robot can only translate in a 10x10 2D plane. The robot is a non symmetrically shaped polygon (triangle) with it's origin at it's left most point. We use minkowski addition using the robot's flipped polygon on the obstacles to get the configuration space of the problem.
 
@@ -22,9 +22,7 @@ This is an optimal algorithm, which uses rewiring technqiues within a region to 
 <video src="https://user-images.githubusercontent.com/25320503/149968880-9f95aca2-93ae-4a29-9d72-44a08717f560.mp4" controls="controls" style="max-width: 730px;">
 </video>
 
-## Geometric (x, y, theta) in C-space
-
-Here the robot can translate and rotate in a 10x10 2D plane.
+#### Here the robot can translate and rotate in a 10x10 2D plane.
 
 ### RRT
 
@@ -34,6 +32,8 @@ Here the robot can translate and rotate in a 10x10 2D plane.
 
 ![2_rrt_star](https://user-images.githubusercontent.com/25320503/149982250-653415d4-cfd6-4af9-9f23-09a98e0a8ba1.png)
 
+
+## Kinodynamic Planning
 
 ### RRT with velocity as a control
 
