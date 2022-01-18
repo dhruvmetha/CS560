@@ -28,11 +28,11 @@ Here the robot can translate and rotate in a 10x10 2D plane.
 
 ### RRT
 
-<img src="https://user-images.githubusercontent.com/25320503/149968226-db68f83a-015e-445f-bd7d-14253c7b5768.mp4" style="max-width: 730px;"/>
+![2_rrt](https://user-images.githubusercontent.com/25320503/149982090-d0de949f-20ce-4527-9d5c-d4a8ca58f414.png)
 
 ### RRT Star
 
-<img src="https://user-images.githubusercontent.com/25320503/149968880-9f95aca2-93ae-4a29-9d72-44a08717f560.mp4" style="max-width: 730px;"/>
+![2_rrt_star](https://user-images.githubusercontent.com/25320503/149982250-653415d4-cfd6-4af9-9f23-09a98e0a8ba1.png)
 
 
 ### RRT with velocity as a control
