@@ -4,6 +4,10 @@ You can use the [editor on GitHub](https://github.com/dhruvmetha/CS560/edit/gh-p
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
+<video width="320" height="240" controls>
+  <source type="video/mp4" src="https://github.com/dhruvmetha/CS560/raw/master/1_rrt.mp4">
+</video>
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
@@ -15,7 +19,7 @@ Syntax highlighted code block
 ## Header 2
 ### Header 3
 
-https://github.com/dhruvmetha/CS560/raw/master/1_rrt.mp4
+
 
 - Bulleted
 - List
