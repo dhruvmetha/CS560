@@ -12,7 +12,7 @@ The sampling based tree algorithm RRT and RRT* is shown in the following section
 
 The following is the RRT algorithm. This is a sub-optimal but quite a fast algorithm.
 
-<video src="https://user-images.githubusercontent.com/25320503/149968226-db68f83a-015e-445f-bd7d-14253c7b5768.mp4" controls="controls" style="max-width: 730px;">
+<video src="https://user-images.githubusercontent.com/25320503/149968226-db68f83a-015e-445f-bd7d-14253c7b5768.mp4" controls="controls" style="max-width: 90vw;">
 </video>
 
 ### RRT Star
