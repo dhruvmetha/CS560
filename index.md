@@ -19,7 +19,7 @@ The following is the RRT algorithm. This is a sub-optimal but quite a fast algor
 
 This is an optimal algorithm, which uses rewiring technqiues within a region to find the best possible path amognst the discovered paths to the goal.
 
-<video src="https://user-images.githubusercontent.com/25320503/149968880-9f95aca2-93ae-4a29-9d72-44a08717f560.mp4" controls="controls" style="max-width: 730px;">
+<video src="https://user-images.githubusercontent.com/25320503/150119283-c3fe6038-e523-42cc-b413-61a28e9f185c.mp4" controls="controls" style="max-width: 730px;">
 </video>
 
 #### Here the robot can translate and rotate in a 10x10 2D plane.
