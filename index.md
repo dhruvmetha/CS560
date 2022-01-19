@@ -19,7 +19,7 @@ The following is the RRT algorithm. This is a sub-optimal but quite a fast algor
 
 This is an optimal algorithm, which uses rewiring technqiues within a region to find the best possible path amognst the discovered paths to the goal.
 
-<video src="https://user-images.githubusercontent.com/25320503/150119283-c3fe6038-e523-42cc-b413-61a28e9f185c.mp4" controls="controls" style="max-width: 730px;">
+<video src="https://user-images.githubusercontent.com/25320503/150119283-c3fe6038-e523-42cc-b413-61a28e9f185c.mp4" controls="controls" style="max-width: 90vw;">
 </video>
 
 #### Here the robot can translate and rotate in a 10x10 2D plane.
@@ -45,14 +45,14 @@ This is an optimal algorithm, which uses rewiring technqiues within a region to 
 
 Following is the demonstration.
 
-<video src="https://user-images.githubusercontent.com/25320503/149969046-9544781a-4f8a-496e-9f0f-69d50564dca7.mp4" controls="controls" style="width:90vw; max-width: 730px;">
+<video src="https://user-images.githubusercontent.com/25320503/149969046-9544781a-4f8a-496e-9f0f-69d50564dca7.mp4" controls="controls"  style="max-width: 90vw;">
 </video>
 
 ### RRT with acceleration as a control
 
 I do the same thing as above, except we sample linear and angular accelerations, which take us closer to how they work in reality. 
 
-<video src="https://user-images.githubusercontent.com/25320503/150120037-a6e1c646-c7b1-4c6e-87c4-09be51e2d2ba.mp4" controls="controls" style="max-width: 730px;">
+<video src="https://user-images.githubusercontent.com/25320503/150120037-a6e1c646-c7b1-4c6e-87c4-09be51e2d2ba.mp4" controls="controls"  style="max-width: 90vw;">
 </video>
 
 
@@ -63,14 +63,14 @@ I do the same thing as above, except we sample linear and angular accelerations,
 Sampling 100 particles around 100x100 space and using a sampling based approach to bayes filters to localize the robot in this space.
 
 
-<video src="https://user-images.githubusercontent.com/25320503/149969691-dbf506a5-3d76-4949-b689-383e4dd61116.mp4" controls="controls" style="max-width: 730px;">
+<video src="https://user-images.githubusercontent.com/25320503/149969691-dbf506a5-3d76-4949-b689-383e4dd61116.mp4" controls="controls"  style="max-width: 90vw;">
 </video>
 
 As you can see from above, the random particles in space start getting more and more concentrated as the robot moves and gets the bearing as an observation of the state at every step.
 
 Here is another illustration of the same.
 
-<video src="https://user-images.githubusercontent.com/25320503/149970194-5c5520c8-d743-4572-9e3c-eb12acb9474a.mp4" controls="controls" style="max-width: 730px;">
+<video src="https://user-images.githubusercontent.com/25320503/149970194-5c5520c8-d743-4572-9e3c-eb12acb9474a.mp4" controls="controls"  style="max-width: 90vw;">
 </video>
 
 
