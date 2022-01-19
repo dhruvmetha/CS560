@@ -52,7 +52,7 @@ Following is the demonstration.
 
 I do the same thing as above, except we sample linear and angular accelerations, which take us closer to how they work in reality. 
 
-<video src="https://user-images.githubusercontent.com/25320503/149969461-35ce8b3c-b426-417b-9a0d-26b13bd52503.mp4" controls="controls" style="max-width: 730px;">
+<video src="https://user-images.githubusercontent.com/25320503/150120037-a6e1c646-c7b1-4c6e-87c4-09be51e2d2ba.mp4" controls="controls" style="max-width: 730px;">
 </video>
 
 
