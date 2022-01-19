@@ -45,7 +45,7 @@ This is an optimal algorithm, which uses rewiring technqiues within a region to 
 
 Following is the demonstration.
 
-<video src="https://user-images.githubusercontent.com/25320503/149969046-9544781a-4f8a-496e-9f0f-69d50564dca7.mp4" controls="controls" style="max-width: 730px;">
+<video src="https://user-images.githubusercontent.com/25320503/149969046-9544781a-4f8a-496e-9f0f-69d50564dca7.mp4" controls="controls" style="width:90vw; max-width: 730px;">
 </video>
 
 ### RRT with acceleration as a control
